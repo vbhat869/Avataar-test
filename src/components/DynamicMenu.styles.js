@@ -133,9 +133,10 @@ export const MobileMenuItemsContainer = styled.div`
   position: absolute;
   color: #eee;
   height: 88vh;
-  width:100%;
-  right:0px;
+  width: 100%;
+  right: 0px;
   bottom: 0px;
+  top: 70px;
   z-index: 111;
   display: flex;
   flex-direction: column;

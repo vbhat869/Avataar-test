@@ -81,6 +81,7 @@ const Carousel = ({cards}) => {
         className={className}
         src={item.image}
         alt="Comic"
+        onClick={()=>{handleDotClick(i)}}
       ></img>
     );
   };
